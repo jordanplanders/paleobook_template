@@ -1,0 +1,88 @@
+shortname: Asian Speleothem Coherency
+type: Paleobook
+thumbnail: speleothem_timeseries_map.png
+parts:
+  - caption: Loading Data
+    chapters:
+      - shortname: Getting data into LiPD
+        filename: Getting_data_into_LiPD
+        thumbnail: pyLiPD_logo.png
+        tags:
+          domains:
+            - data wrangling
+          packages:
+            - pyLiPD
+      - shortname: Loading Data
+        filename: Load_Data_Pyleoclim
+        thumbnail: pyleoclim_insignia_full_white.png
+        tags:
+          domains:
+            - data wrangling
+          packages:
+            - pylipd
+            - pyleoclim
+  - caption: Exploring the Data
+    chapters:
+      - shortname: Detrended Stackplot
+        filename: DetrendedStack_Figure
+        thumbnail: detrended_ensembles.png
+        tags:
+          domains:
+            - data viz
+            - data analysis
+          packages:
+            - pyleoclim
+            - matplotlib
+      - shortname: Mapping Data
+        filename: Map_Data
+        thumbnail: speleothem_timeseries_map.png
+        tags:
+          domains:
+            - data viz
+            - data analysis
+          packages:
+            - pyleoclim
+            - basemap
+  - caption: Main Analysis
+    chapters:
+      - shortname: Synthetic Data
+        filename: Synthetic_Data
+        thumbnail: synthetic_snr.png
+        tags:
+          domains:
+            - data viz
+            - data analysis
+          packages:
+            - pyleoclim
+            - matplotlib
+      - shortname: Kernel Density Estimation
+        filename: KDE_Plots
+        thumbnail: interval_4k_diff_snr.png
+        tags:
+          domains:
+            - data analysis
+            - data viz
+          packages:
+            - matplotlib
+            - pyleoclim
+      - shortname: Detecting Regime Shifts
+        filename: LERM_Plot
+        thumbnail: speleothem_lerm.png
+        tags:
+          domains:
+            - data viz
+            - data analysis
+          packages:
+            - pyleoclim
+            - ammonyte
+            - matplotlib
+      - shortname: MC PCA Analysis
+        filename: MC_PCA_Analysis
+        thumbnail: mcpca_all_1.png
+        tags:
+          domains:
+            - data viz
+            - data analysis
+          packages:
+            - pyleoclim
+            - matplotlib
