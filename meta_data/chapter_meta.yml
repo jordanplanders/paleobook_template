@@ -1,6 +1,6 @@
 shortname: Template Paleobook
 type: Paleobook
-thumbnail: template.png
+thumbnail: logo.png
 parts:
   - caption: Loading Data
     chapters:
