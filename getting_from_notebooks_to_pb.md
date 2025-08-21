@@ -5,7 +5,7 @@ Too make sure this PaleoBook will be truly yours (and not this template), check 
 3. open `index.html` in a browser and inspect your work. In addtion to checking your prose and figures, make sure that navigation bar titles are informative and that nothing points to the PaleoBook template instead of your work 
 4. move `_build` to a directory called `docs`
 5. `pip install ghp-import`
-6. follow the instructions for getting a classic token for `you>settings>developer tools` (very bottom menu option). The only category needed is `repo`
+6. follow the instructions for getting a classic token for `you>settings>developer tools` (very bottom menu option). You will need: `admin:gpg_key`, `admin:public_key`, `admin:repo_hook`, `repo`, `workflow`
 7. `export GH_TOKEN=ghp_yourTokenHere` (update _ghp_yourTokenHere_ with your token string)
 8. `git remote set-url origin https://$GH_TOKEN@github.com/<username>/<repo>.git` (change _username_ and _repo_)
 8. `ghp-import -n -p -f docs/_build/html`
